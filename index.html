@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Tűzhegy Varázslója</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <div class="container">
+
+        <header>
+
+            <h1>A Tűzhegy Varázslója</h1>
+
+            <p class="subtitle">
+                Kaland • Játék • Kockázat
+            </p>
+
+        </header>
+
+        <main>
+
+            <section class="game-area">
+
+                <div class="chapter-box">
+
+                    <div class="chapter-number">
+                        FEJEZET
+                        <span id="chapterNumber">1</span>
+                    </div>
+
+                    <div id="story" class="story-text"></div>
+
+                </div>
+
+                <div id="buttons" class="choices"></div>
+
+            </section>
+
+            <aside class="sidebar">
+
+                <div class="card">
+
+                    <h2>Karakterlap</h2>
+
+                    <div class="stat">
+                        <span>⚔️ ÜGYESSÉG</span>
+                        <span id="skill"></span>
+                    </div>
+
+                    <div class="stat">
+                        <span>❤️ ÉLETERŐ</span>
+                        <span id="stamina"></span>
+                    </div>
+
+                    <div class="stat">
+                        <span>🍀 SZERENCSE</span>
+                        <span id="luck"></span>
+                    </div>
+
+                    <div class="stat">
+                        <span>🪙 ARANY</span>
+                        <span id="gold"></span>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <h2>Felszerelés</h2>
+
+                    <ul id="inventory"></ul>
+
+                </div>
+
+                <div class="card">
+
+                    <h2>Játék</h2>
+
+                    <button onclick="saveGame()">
+                        Mentés
+                    </button>
+
+                    <button onclick="loadGame()">
+                        Betöltés
+                    </button>
+
+                    <button onclick="restartGame()">
+                        Új játék
+                    </button>
+
+                </div>
+
+                <div class="card">
+
+                    <h2>Harci napló</h2>
+
+                    <div id="log" class="combat-log"></div>
+
+                </div>
+
+            </aside>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
