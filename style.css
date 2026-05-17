@@ -282,27 +282,6 @@ button:hover{
     padding-left: 20px;
 }
 
-#inventory li{
-    margin-bottom: 10px;
-}
-
-.combat-log{
-    max-height: 250px;
-    overflow-y: auto;
-    line-height: 1.6;
-    color: #ddd;
-}
-
-@media(max-width: 1000px){
-
-    main{
-        flex-direction: column;
-    }
-
-    header h1{
-        font-size: 40px;
-    }
 
 
-}
 }

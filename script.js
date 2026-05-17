@@ -1,4 +1,6 @@
 
+
+
 let player = {
 
     skill: 10,
