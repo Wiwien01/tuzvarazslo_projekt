@@ -1,18 +1,3 @@
-let player = {
-
-    skill: 10,
-    stamina: 20,
-    luck: 9,
-    gold: 5,
-
-    inventory: [
-        "Kard",
-        "Pajzs",
-        "Lámpás",
-        "10 adag élelem"
-    ]
-
-};
 
 let currentChapter = 1;
 
