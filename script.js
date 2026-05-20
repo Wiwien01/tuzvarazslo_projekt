@@ -418,4 +418,4 @@ function restartGame(){
 
 updateStats();
 
-showChapter(); cebhfebq
+showChapter();
