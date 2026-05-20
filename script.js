@@ -12,7 +12,7 @@ let player = {
         "10 adag élelem"
     ]
 
-}; wbdbwhqb
+};
 
 let currentChapter = 1;
 
