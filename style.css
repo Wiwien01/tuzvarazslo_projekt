@@ -82,7 +82,11 @@ main{
     color: #eee;
 }
 
-
+.choices{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 
 button{
     background: linear-gradient(to right, #5c0000, #8b0000);
