@@ -2,6 +2,14 @@
     box-sizing: border-box;
 }
 
+body{
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #111;
+    color: white;
+    overflow-x: hidden;
+}
+
 .background{
     position: fixed;
     width: 100%;
